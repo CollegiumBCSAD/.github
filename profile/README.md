@@ -15,3 +15,19 @@ Collegium addresses the current lack of unified, secure, and data-driven digital
 
 * **Hybrid Match-Logging System:** Direct Riot Games REST API integration for PC titles, and a two-step peer-confirmation protocol for Mobile titles (MLBB, CODM).
 * **Advanced Ranking Engine:** Utilizes the Glicko-2 Algorithm combined with a custom Varsity Contribution Score (VCS) for highly accurate performance tracking and dynamic university rankings.
+
+## Technology Stack
+
+The platform operates on a modern, high-performance full-stack architecture:
+
+* **Frontend:** Next.js, React, TypeScript, Tailwind CSS
+* **Backend:** NestJS, TypeScript
+* **Database & ORM:** PostgreSQL, Prisma
+* **Caching:** Redis
+
+## Repositories
+
+The project is structured into the following main repositories:
+
+* **`collegium-web`**: The client-side Progressive Web App (PWA) built with Next.js. This repository contains all the user-facing interfaces, including the scrim board, tournament brackets, and athlete portfolios.
+* **`collegium-server`**: The backend application built with NestJS. It handles API routing, secure authentication, database interactions via Prisma, and runs the core logic for the Glicko-2 and VCS ranking engines.
